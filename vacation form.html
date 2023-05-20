@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta meta="UTF_8">
+    <title >Vacation Form</title>
+    <h1 class ='vForm'>vacation form</h1>
+
+        <link rel="stylesheet"href='css/vForm.css'>
+
+         <script src="JS/submittedAndvForm.js"></script>
+</head>
+
+<body>
+    <br>
+    <form method="post">
+        <div class ='name'>
+            <label><h3 class = bro>Name</h3></label>
+            <input id="name" type="text" placeholder="Name" autofocus title="Enter your full name" class="tab" required >
+        </div>
+        <br>
+              
+        <div class ='date'>
+            <h3 class = bro>Date</h3>
+
+            <label for="f" title="Enter vacation begining date">from</label>
+            <input type="date" id="f" required title="Enter vacation begining date"class="tab">
+            <br><br>
+            <label for="t"title="Enter vacation end date">to</label>
+            <input type="date" id="t" required title="Enter vacation end date"class="tab">
+        </div>
+
+        <br>
+              
+        <div class ='reason'>
+            <h3 class = bro>reason</h3>
+            <textarea name="reason" id="r" cols="40" rows="10" required placeholder="Enter Your Reason" title="Enter your reason clearly" class="tab"></textarea>
+
+        </div>
+        <br>
+              
+        <div class ='id'>
+            <h3 class = bro>ID</h3>
+            <input type="number" id="id" required placeholder="Enter Your ID" title="The ID should include numbers only"class="tab">
+        </div>
+        <br>
+              
+        <input class ='butt' id="submit" type="Submit" onclick="chekValid()">
+        <button class ='butt' type="reset" value="rest" >reset</button>
+
+    </form>
+</body>
+
+</html>

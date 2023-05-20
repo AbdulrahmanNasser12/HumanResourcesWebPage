@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+*{       text-transform:capitalize;
+}
+h1{
+       color  :brown;
+       font-weight:bold;
+       font-size: 140%;
+       cursor:auto;
+       font-family: 'Source Serif Pro', serif;}
+h1.tittle{
+    font-family: initial;
+    text-align: center;
+    background-color: brown;
+    color:antiquewhite;
+    font-size: 500%;
+    background-size: 120%;
+    cursor:auto;
+    text-transform:capitalize;  
+}
+ul
+{
+    list-style-type: none;
+    color: grey;
+    font-size: 105%;
+    cursor:auto;
+
+}
+
+.etc
+{
+    font-weight:bold;
+    color: brown;
+    font-size: 110%;
+    cursor:auto;
+
+}
+input:checked +label{
+color :blue;
+
+}
+.butt{
+    border: 2px solid ;
+     color:antiquewhite ;
+     background-color:brown ;
+     padding: 10px;
+     border-radius: 10px;
+     transition: all 0.5s;
+     font-size: 25px;
+     cursor: pointer;
+     box-shadow: 1px 2px gray;
+}
+.butt:hover{
+    border: 2px solid ;
+     color:brown;
+     background-color:antiquewhite ;
+     padding: 10px;
+     border-radius: 10px;
+     transition: all 0.25s;
+     font-size: 25px;
+     cursor: pointer;
+     box-shadow: 1px 2px gray;
+}
+input{cursor: pointer;}
+body{
+    background-color: antiquewhite;
+}
+hr{
+    color: gray;
+}
